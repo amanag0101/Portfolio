@@ -13,3 +13,19 @@ a {
   text-decoration: none;
   color: #fff;
 }
+
+a:hover {
+  color: orange;
+  border-bottom: 1px solid orange;
+}
+
+.active {  
+  color: orange;
+  border-bottom: 1px solid orange;
+}
+
+@media (max-width: 720px) {
+  .active {  
+    border-bottom: none
+  }
+}
