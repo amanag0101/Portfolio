@@ -1,13 +1,30 @@
-import './globals.css'
+import Header from "./components/Header";
+import styles from "./layout.module.css";
+import "./globals.css";
+import Navbar from "./components/Navbar";
 
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode
+  children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
-      <body>{children}</body>
-    </html>
+    <div className={styles.layout}>
+      <div className={styles.header}>
+        <header>
+          <Header />
+        </header>
+      </div>
+
+      <div className={styles.navbar}>
+        <nav>
+          <Navbar />
+        </nav>
+      </div>
+
+      <div className={styles.body}>
+        <body>{children}</body>
+      </div>
+    </div>
   );
 }

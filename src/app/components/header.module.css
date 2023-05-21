@@ -1,0 +1,38 @@
+.header {
+    margin-top: 12px;
+    padding: 8px;
+}
+
+.header .textIcon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+.header .textIcon .col-2 {
+    margin-left: 4px;
+}
+
+.header .social {
+    margin-top: 12px;
+}
+
+.header .social .container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+@media (max-width: 720px) {
+    .header .social .container {
+        flex-direction: column;
+    }
+
+    .header .textIcon {
+        margin-top: 12px;
+    }
+
+    .header .textIcon b {
+        width: 100%;
+    }
+}

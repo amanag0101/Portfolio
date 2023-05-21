@@ -1,0 +1,17 @@
+.layout {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.layout .header {
+    flex-basis: 15vh;
+}
+
+.layout .navbar {
+    flex-basis: 15vh;
+}
+
+.layout .body {
+    flex-basis: 70vh;
+}
