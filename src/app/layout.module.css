@@ -4,12 +4,10 @@
     flex-direction: column;
 }
 
-.layout .header {
-    flex-basis: 15vh;
-}
-
+.layout .header,
 .layout .navbar {
     flex-basis: 15vh;
+    margin-top: 12px;
 }
 
 .layout .body {

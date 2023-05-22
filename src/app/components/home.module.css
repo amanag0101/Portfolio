@@ -1,4 +1,57 @@
-.home {
-    border-top: 1px solid #fff;
-    border-bottom: 1px solid #fff;
+.home .container {
+    display: flex;
+    align-items: center;
+}
+
+.home .container .col-1,
+.home .container .col-2 {
+    flex-basis: 50%;
+    align-items: center;
+}
+
+.home .container .col-1 {
+    text-align: center;
+}
+
+.home .container .col-1 img {
+    clip-path: ellipse();
+    max-width: 50%;
+    height: auto;
+}
+
+.home .container .col-2 {
+    padding: 12px;
+}
+
+.home .container .col-2 div {
+    margin-top: 12px;
+    padding: 8px;
+}
+
+.home .container .col-2 div h2 {
+    margin-bottom: 8px;
+}
+
+.home .container .col-2 .hobby img {
+    margin-right: 12px;
+}
+
+.home .container .col-2 .hobby {
+    margin-bottom: 28px;
+}
+
+@media (max-width: 720px) {
+    .home .container {
+        flex-direction: column;
+    }
+
+    .home .container .col-1 img {
+        clip-path: circle();
+        max-width: 50%;
+        height: auto;
+    }
+
+    .home .container .col-2 {
+        text-align: center;
+    }
 }
