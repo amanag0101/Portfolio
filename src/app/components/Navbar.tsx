@@ -2,7 +2,7 @@
 
 import { usePathname } from "next/navigation";
 import Link from "next/link";
-import styles from "./navbar.module.css";
+import styles from "./css/navbar.module.css";
 
 export default function Navbar() {
   const pathname = usePathname();
@@ -17,8 +17,8 @@ export default function Navbar() {
         <Link className={isActive("/") ? "active" : ""} href="/">
           Home
         </Link>
-        <Link href="#">Projects</Link>
-        <Link href="#">Experience</Link>
+        {/* <Link href="#">Projects</Link>
+        <Link href="#">Experience</Link> */}
         <Link className={isActive("/techstack") ? "active" : ""} href="/techstack">
           Tech Stack
         </Link>

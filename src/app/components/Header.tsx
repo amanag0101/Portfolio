@@ -1,5 +1,5 @@
 import Image from "next/image";
-import styles from "./header.module.css";
+import styles from "./css/header.module.css";
 
 export default function Header() {
   return (
@@ -27,7 +27,7 @@ export default function Header() {
               alt="icon"
             ></Image>
             <b className={styles["col-2"]}>
-              <a href="https://www.google.com" target="_blank">
+              <a href="https://github.com/amanag0101" target="_blank">
                 Github
               </a>
             </b>
@@ -35,13 +35,16 @@ export default function Header() {
 
           <div className={styles.textIcon}>
             <Image
-              src="/icons/code.png"
+              src="/icons/brackets.png"
               height={30}
               width={30}
               alt="icon"
             ></Image>
             <b className={styles["col-2"]}>
-              <a href="https://www.google.com" target="_blank">
+              <a
+                href="https://www.codechef.com/users/aman___agarwal"
+                target="_blank"
+              >
                 CodeChef
               </a>
             </b>
@@ -55,7 +58,7 @@ export default function Header() {
               alt="icon"
             ></Image>
             <b className={styles["col-2"]}>
-              <a href="https://www.google.com" target="_blank">
+              <a href="https://www.linkedin.com/in/amanag0101/" target="_blank">
                 LinkedIn
               </a>
             </b>
