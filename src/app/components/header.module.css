@@ -10,7 +10,7 @@
 }
 
 .header .textIcon .col-2 {
-    margin-left: 4px;
+    margin-left: 8px;
 }
 
 .header .social {
@@ -23,15 +23,11 @@
 }
 
 @media (max-width: 720px) {
-    .header .social .container {
-        flex-direction: column;
-    }
-
     .header .textIcon {
         margin-top: 12px;
     }
 
     .header .textIcon b {
-        width: 100%;
+        display: none;
     }
 }

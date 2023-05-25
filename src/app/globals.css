@@ -5,8 +5,12 @@
 }
 
 body {
-  background-color: #000;
+  background-color: #11111c;
   color: #fff;
+}
+
+h1, h2 {
+  color: #ff4552;
 }
 
 a {
@@ -15,13 +19,12 @@ a {
 }
 
 a:hover {
-  color: orange;
-  border-bottom: 1px solid orange;
+  color: #ff4552;
 }
 
 .active {  
-  color: orange;
-  border-bottom: 1px solid orange;
+  color: #ff4552;
+  border-bottom: 1px solid #ff4552;
 }
 
 @media (max-width: 720px) {

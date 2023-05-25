@@ -22,8 +22,8 @@ export default function Header() {
           <div className={styles.textIcon}>
             <Image
               src="/icons/github.png"
-              height={18}
-              width={18}
+              height={30}
+              width={30}
               alt="icon"
             ></Image>
             <b className={styles["col-2"]}>
@@ -36,8 +36,8 @@ export default function Header() {
           <div className={styles.textIcon}>
             <Image
               src="/icons/code.png"
-              height={18}
-              width={18}
+              height={30}
+              width={30}
               alt="icon"
             ></Image>
             <b className={styles["col-2"]}>
@@ -50,8 +50,8 @@ export default function Header() {
           <div className={styles.textIcon}>
             <Image
               src="/icons/linkedin.png"
-              height={18}
-              width={18}
+              height={30}
+              width={30}
               alt="icon"
             ></Image>
             <b className={styles["col-2"]}>
