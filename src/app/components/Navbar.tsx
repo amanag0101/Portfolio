@@ -19,7 +19,9 @@ export default function Navbar() {
         </Link>
         <Link href="#">Projects</Link>
         <Link href="#">Experience</Link>
-        <Link href="#">Tech Stack</Link>
+        <Link className={isActive("/techstack") ? "active" : ""} href="/techstack">
+          Tech Stack
+        </Link>
       </div>
     </div>
   );

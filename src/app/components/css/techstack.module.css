@@ -1,0 +1,21 @@
+.techstack {
+    padding: 8px;
+}
+
+.techstack .icon {
+    height: 35px;
+    width: 35px;
+}
+
+.techstack .layer {
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.techstack .layer h2 {
+    margin-bottom: 12px;
+}
+
+.techstack .layer img {
+    margin-right: 12px;
+}
