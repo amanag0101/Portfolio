@@ -9,22 +9,24 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <div className={styles.layout}>
-      <div className={styles.header}>
-        <header>
-          <Header />
-        </header>
-      </div>
+    <html lang="en">
+      <body>
+        <div className={styles.layout}>
+          <div className={styles.header}>
+            <header>
+              <Header />
+            </header>
+          </div>
 
-      <div className={styles.navbar}>
-        <nav>
-          <Navbar />
-        </nav>
-      </div>
+          <div className={styles.navbar}>
+            <nav>
+              <Navbar />
+            </nav>
+          </div>
 
-      <div className={styles.body}>
-        <body>{children}</body>
-      </div>
-    </div>
+          <div className={styles.body}>{children}</div>
+        </div>
+      </body>
+    </html>
   );
 }
