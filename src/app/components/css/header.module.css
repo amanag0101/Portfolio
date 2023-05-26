@@ -3,23 +3,71 @@
 }
 
 .header .textIcon {
+    cursor: pointer;
     display: flex;
     align-items: center;
-    justify-content: center;
+    flex-basis: 25%;
     flex-wrap: nowrap;
 }
 
-.header .textIcon .col-2 {
-    margin-left: 8px;
+.header .textIcon img {
+    margin-right: 8px;
 }
 
-.header .social {
-    margin-top: 12px;
+.header .container {
+    display: flex;
+    align-items: center;
 }
 
-.header .social .container {
+.header .container .social {
+    flex-basis: 75%;
+    justify-content: right;
+}
+
+.header .container .social .container {
     display: flex;
     justify-content: space-evenly;
+}
+
+.header .container .social .container .hamburgerMenu {
+    display: none;
+}
+
+.header .menu {
+    background-color: #ff4552;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    z-index: 1;
+}
+
+.header .menu a {
+    display: block;
+    margin-bottom: 4px;
+    padding: 24px;
+}
+.header .menu a:hover {
+    background-color: #11111c;
+}
+
+.header .menu h3 {
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    padding: 4px;
+    margin: 8px 12px 0 0;
+}
+
+.header .menu h3:hover {
+    color: #11111c;
+}
+
+.header .menu h2 {
+    color: #fff;
+    padding: 40px;
 }
 
 @media (max-width: 720px) {
@@ -29,5 +77,27 @@
 
     .header .textIcon b {
         display: none;
+    }
+
+    .header .container {
+        flex-direction: column;
+    }
+
+    .header .container .social {
+        flex-direction: 100%;
+        width: 100%;
+        margin-top: 8px;
+    }
+
+    .header .container .social .container {
+        flex-direction: row;
+    }
+
+    .header .container .social .container .textIcon {
+        justify-content: center;
+    }
+
+    .header .container .social .container .hamburgerMenu {
+        display: block;
     }
 }
