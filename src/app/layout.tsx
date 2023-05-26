@@ -18,13 +18,13 @@ export default function RootLayout({
             </header>
           </div>
 
-          <div className={styles.navbar}>
-            <nav>
+          <div className={styles.container}>
+            <nav className={styles.navbar}>
               <Navbar />
             </nav>
-          </div>
 
-          <div className={styles.body}>{children}</div>
+            <div className={styles.body}>{children}</div>
+          </div>
         </div>
       </body>
     </html>

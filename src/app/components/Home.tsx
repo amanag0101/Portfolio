@@ -6,7 +6,7 @@ export default function Home() {
     <div className={styles.home}>
       <div className={styles.container}>
         <div className={styles["col-1"]}>
-          <img src="/images/profile.jpg" alt="profile" />
+          <img src="/images/profile_.jpg" alt="profile" />
         </div>
 
         <div className={styles["col-2"]}>

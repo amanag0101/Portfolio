@@ -1,22 +1,16 @@
-.navbar {
-    border-top: 1px solid #fff;
-    border-bottom: 1px solid #fff;
-    padding: 12px;
+.navbar p {
+    border: 2px solid;
+    cursor: pointer;
+    width: 60%; 
+    margin: auto;
+    margin-top: 32px;   
 }
 
-.navbar .container {
-    display: flex;
-    justify-content: space-evenly;
-}   
+.navbar p:hover {
+    width: 80%;
+}
 
-@media (max-width: 720px) {
-    .navbar .container {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .navbar .container a {
-        margin-top: 12px;
-        margin-bottom: 12px;
-    }
+.navbar p.active {  
+    color: #ff4552;
+    width: 80%;
 }

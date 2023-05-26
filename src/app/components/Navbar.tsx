@@ -1,28 +1,34 @@
 "use client";
 
-import { usePathname } from "next/navigation";
-import Link from "next/link";
+import { usePathname, useRouter } from "next/navigation";
 import styles from "./css/navbar.module.css";
 
-export default function Navbar() {
+export default function Navbar() {  
   const pathname = usePathname();
+  const router = useRouter();
 
-  const isActive = (url: string) => {
-    return pathname === url ? true : false;
-  };
+  function handleClick(url: string) {
+    router.push(url);
+  }
+
+  function isActive(url: string): string {
+    return pathname === url ? "active" : "";
+  }
 
   return (
     <div className={styles.navbar}>
-      <div className={styles.container}>
-        <Link className={isActive("/") ? "active" : ""} href="/">
-          Home
-        </Link>
-        {/* <Link href="#">Projects</Link>
-        <Link href="#">Experience</Link> */}
-        <Link className={isActive("/techstack") ? "active" : ""} href="/techstack">
-          Tech Stack
-        </Link>
-      </div>
+        <p
+          className={styles[isActive("/")]}
+          onClick={() => handleClick("/")}
+        ></p>
+        <p
+          className={styles[isActive("/projects")]}
+          onClick={() => handleClick("/projects")}
+        ></p>
+        <p
+          className={styles[isActive("/techstack")]}
+          onClick={() => handleClick("/techstack")}
+        ></p>
     </div>
   );
 }
