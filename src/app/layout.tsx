@@ -12,11 +12,9 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <div className={styles.layout}>
-          <div className={styles.header}>
-            <header>
-              <Header />
-            </header>
-          </div>
+          <header className={styles.header}>
+            <Header />
+          </header>
 
           <div className={styles.container}>
             <nav className={styles.navbar}>
