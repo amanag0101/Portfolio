@@ -1,5 +1,7 @@
 .techstack {
     padding: 8px;
+    overflow: hidden;
+    perspective: 400px;
 }
 
 .techstack .icon {
@@ -8,11 +10,16 @@
 }
 
 .techstack .layer {
+    animation: scroll 10s linear infinite;
+    transform-origin: 50% 100%;
     margin-bottom: 24px;
     text-align: center;
 }
 
 .techstack .layer h2 {
+    font-family: "Star Wars";
+    letter-spacing: 2px ;
+    color: #FFE81F;
     margin-bottom: 12px;
 }
 
@@ -23,5 +30,17 @@
 @media (max-width: 720px) {
     .techstack .icon {
         padding: 4px;
+    }
+}
+
+@keyframes scroll {
+    from {
+        transform: rotateX(20deg) translateY(0);
+        opacity: 1;
+    }
+
+    to {
+        transform: rotateX(25deg) translateY(-500%);
+        opacity: 0;
     }
 }
