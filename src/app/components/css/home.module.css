@@ -44,11 +44,11 @@
         flex-direction: column;
     }
 
-    .home .container .col-1 img {
+    /* .home .container .col-1 img {
         clip-path: circle();
         max-width: 50%;
         height: auto;
-    }
+    } */
 
     .home .container .col-2 {
         text-align: center;

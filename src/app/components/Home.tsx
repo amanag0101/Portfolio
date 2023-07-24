@@ -1,4 +1,9 @@
+"use client";
+
 import Image from "next/image";
+import Lottie from "lottie-react";
+
+import astronaut from "../../../public/lotties/astronaut.json";
 import styles from "./css/home.module.css";
 
 export default function Home() {
@@ -6,7 +11,10 @@ export default function Home() {
     <div className={styles.home}>
       <div className={styles.container}>
         <div className={styles["col-1"]}>
-          <Image src="/images/profile.jpg" alt="profile" height={300} width={300} />
+          {/* <Image src="/images/profile.jpg" alt="profile" height={300} width={300} /> */}
+          <Lottie animationData={astronaut} loop={true} style={{
+            height: "80vh"
+          }} />
         </div>
 
         <div className={styles["col-2"]}>
