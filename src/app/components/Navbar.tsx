@@ -18,10 +18,10 @@ export default function Navbar() {
   return (
     <div className={styles.navbar}>
       <p className={styles[isActive("/")]} onClick={() => handleClick("/")}></p>
-      {/* <p
-          className={styles[isActive("/projects")]}
-          onClick={() => handleClick("/projects")}
-        ></p> */}
+      <p
+        className={styles[isActive("/projects")]}
+        onClick={() => handleClick("/projects")}
+      ></p>
       <p
         className={styles[isActive("/techstack")]}
         onClick={() => handleClick("/techstack")}

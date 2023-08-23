@@ -4,6 +4,7 @@ import Image from "next/image";
 import styles from "./css/header.module.css";
 import { useEffect, useState } from "react";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 
 export default function Header() {
   const GREETINGS = [
@@ -31,6 +32,7 @@ export default function Header() {
   const [welcomeMessage, setWelcomeMessage] = useState<string>(GREETINGS[0]);
   const [toggleMenu, setToggleMenu] = useState<boolean>(false);
   const [menuStyle, setMenuStyle] = useState<string>("none");
+  const router = useRouter();
 
   const updateWelcomeMessage = async () => {
     for (let i = 0; i < GREETINGS.length; i++)
@@ -48,7 +50,10 @@ export default function Header() {
   return (
     <div className={styles.header}>
       <div className={styles.container}>
-        <div className={styles.textIcon}>
+        <div
+          className={styles.textIcon}
+          onClick={() => router.push("/")}
+        >
           <Image
             className={styles["col-1"]}
             src="/icons/namaste.png"
@@ -63,9 +68,9 @@ export default function Header() {
           <div className={styles.container}>
             <div className={`${styles.textIcon} ${styles.hamburgerMenu}`}>
               <Image
-              style={{
-                filter: "invert(100%)"
-              }}
+                style={{
+                  filter: "invert(100%)",
+                }}
                 onClick={() => setToggleMenu(true)}
                 src="/icons/menu-bar.png"
                 height={30}
@@ -145,9 +150,15 @@ export default function Header() {
           X
         </h3>
         <h2>Menu</h2>
-        <Link onClick={() => setToggleMenu(false)} href="/">Home</Link>
-        {/* <Link onClick={() => setToggleMenu(false)} href="/projects">Projects</Link>  */}
-        <Link onClick={() => setToggleMenu(false)} href="/techstack">Tech Stack</Link>
+        <Link onClick={() => setToggleMenu(false)} href="/">
+          Home
+        </Link>
+        <Link onClick={() => setToggleMenu(false)} href="/projects">
+          Projects
+        </Link>
+        <Link onClick={() => setToggleMenu(false)} href="/techstack">
+          Tech Stack
+        </Link>
       </div>
     </div>
   );

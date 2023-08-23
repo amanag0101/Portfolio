@@ -1,0 +1,18 @@
+.project .container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.project .container .card {
+    flex-basis: calc(33.33% - 40px);
+    /* flex-basis: 30%; */
+    margin: 8px;
+}
+
+@media (max-width: 720px) { 
+    .project .container .card {
+        flex-basis: 100%;
+    }
+}

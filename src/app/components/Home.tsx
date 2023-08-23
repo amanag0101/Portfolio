@@ -12,9 +12,13 @@ export default function Home() {
       <div className={styles.container}>
         <div className={styles["col-1"]}>
           {/* <Image src="/images/profile.jpg" alt="profile" height={300} width={300} /> */}
-          <Lottie animationData={astronaut} loop={true} style={{
-            height: "80vh"
-          }} />
+          <Lottie
+            animationData={astronaut}
+            loop={true}
+            style={{
+              height: "80vh",
+            }}
+          />
         </div>
 
         <div className={styles["col-2"]}>
@@ -30,7 +34,7 @@ export default function Home() {
               />
               <br />I am Aman Agarwal
             </h2>
-            <p>
+            <p className={styles.content}>
               I am a person who is positive about every aspect of life. I am
               passionate about programming and I like to learn and explore new
               things. I am strong in design and integration with intuitive
@@ -40,63 +44,75 @@ export default function Home() {
           </div>
 
           <div>
-            <h2>Work Experience (April 2022 - Present)</h2>
-            <p>
-              Fullstack Web Developer at VedX <br />
-              Backend: Spring Boot, Hibernate, RabbitMQ, MySQL <br />
-              Frontend: Next.js, React.js
-            </p>
+            <h2>Work Experience (April 2022 - August 2023)</h2>
+            <div className={styles.content}>
+              <h3>Fullstack Web Developer at VedX Academy </h3>
+              <br></br>
+              <p>
+                {">"} Independently developed and deployed back end APIs,
+                designed intuitive user interfaces, and managed the release of
+                new features to enhance the user experience.
+              </p>
+              <br></br>
+              <p>
+                {">"} My technical expertise includes working with a diverse
+                tech stack, including Spring Boot, Next.js, MySQL, RabbitMQ,
+                Git, and REST API.
+              </p>
+            </div>
           </div>
 
           <div>
             <h2>Post Graduation (2022 - 2024)</h2>
-            <p>
+            <p className={styles.content}>
               Masters of Computer Applications (MCA) <br />
-              Vellore Institute of Technology, Vellore
+              Vellore Institute of Technology (VIT), Vellore
             </p>
           </div>
 
           <div className={styles.hobby}>
             <h2>Hobbies</h2>
-            <Image
-              className={styles.icon}
-              src="/icons/table-tennis.svg"
-              alt="icon"
-              height={30}
-              width={30}
-            />
+            <div className={styles.content}>
+              <Image
+                className={styles.icon}
+                src="/icons/table-tennis.svg"
+                alt="icon"
+                height={30}
+                width={30}
+              />
 
-            <Image
-              className={styles.icon}
-              src="/icons/badminton.svg"
-              alt="icon"
-              height={30}
-              width={30}
-            />
+              <Image
+                className={styles.icon}
+                src="/icons/badminton.svg"
+                alt="icon"
+                height={30}
+                width={30}
+              />
 
-            <Image
-              className={styles.icon}
-              src="/icons/books.svg"
-              alt="icon"
-              height={30}
-              width={30}
-            />
+              <Image
+                className={styles.icon}
+                src="/icons/books.svg"
+                alt="icon"
+                height={30}
+                width={30}
+              />
 
-            <Image
-              className={styles.icon}
-              src="/icons/controller.svg"
-              alt="icon"
-              height={30}
-              width={30}
-            />
+              <Image
+                className={styles.icon}
+                src="/icons/controller.svg"
+                alt="icon"
+                height={30}
+                width={30}
+              />
 
-            <Image
-              className={styles.icon}
-              src="/icons/television.svg"
-              alt="icon"
-              height={30}
-              width={30}
-            />
+              <Image
+                className={styles.icon}
+                src="/icons/television.svg"
+                alt="icon"
+                height={30}
+                width={30}
+              />
+            </div>
           </div>
         </div>
       </div>
