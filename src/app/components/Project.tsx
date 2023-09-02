@@ -4,52 +4,28 @@ import styles from "./css/project.module.css";
 const data: ProjectCardProps[] = [
   {
     imageSrc: "/images/algo_viz.png",
-    heading: "Project Name",
+    heading: "Algorithm Visualizer",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, praesentium, est dolor libero perspiciatis dolore accusamus impedit ea molestias blanditiis repudiandae, deleniti accusantium nostrum mollitia eius odio atque cumque. Praesentium?",
-    stack: "Java, Spring Boot, MySQL",
+      " Built an interactive project that provides a visual demonstration of the functionality of various sorting and searching algorithms. Through this project, users can gain a deeper understanding of the inner workings of these algorithms and their applications in computer science.",
+    stack: "Java, Swing",
     gitHubLink: "https://github.com/amanag0101/AlgorithmVisualizer",
   },
   {
-    imageSrc: "/images/algo_viz.png",
-    heading: "Project Name",
+    imageSrc: "/images/blockchain_user_review_sys.png",
+    heading: "Blockchain based User Review System",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, praesentium, est dolor libero perspiciatis dolore accusamus impedit ea molestias blanditiis repudiandae, deleniti accusantium nostrum mollitia eius odio atque cumque. Praesentium?",
-    stack: "Java, Spring Boot, MySQL",
-    gitHubLink: "https://github.com/amanag0101/AlgorithmVisualizer",
+      " Built an innovative online User Review System that leverages the power of blockchain technology to securely store user-generated reviews. To ensure the authenticity and accuracy of the reviews, they are only added to the blockchain after the verification of the associated invoice, which is achieved through OCR and pattern matching techniques.",
+    stack: "Solidity, Spring Boot, Truffle Suite, Next.js, MySQL, IPFS",
+    gitHubLink: "https://github.com/amanag0101/Blockchain-User-Review-System",
   },
   {
-    imageSrc: "/images/algo_viz.png",
-    heading: "Project Name",
+    imageSrc: "/images/e_commerce.png",
+    heading: "E-Commerce Web Application",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, praesentium, est dolor libero perspiciatis dolore accusamus impedit ea molestias blanditiis repudiandae, deleniti accusantium nostrum mollitia eius odio atque cumque. Praesentium?",
-    stack: "Java, Spring Boot, MySQL",
-    gitHubLink: "https://github.com/amanag0101/AlgorithmVisualizer",
-  },
-  {
-    imageSrc: "/images/algo_viz.png",
-    heading: "Project Name",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, praesentium, est dolor libero perspiciatis dolore accusamus impedit ea molestias blanditiis repudiandae, deleniti accusantium nostrum mollitia eius odio atque cumque. Praesentium?",
-    stack: "Java, Spring Boot, MySQL",
-    gitHubLink: "https://github.com/amanag0101/AlgorithmVisualizer",
-  },
-  {
-    imageSrc: "/images/algo_viz.png",
-    heading: "Project Name",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, praesentium, est dolor libero perspiciatis dolore accusamus impedit ea molestias blanditiis repudiandae, deleniti accusantium nostrum mollitia eius odio atque cumque. Praesentium?",
-    stack: "Java, Spring Boot, MySQL",
-    gitHubLink: "https://github.com/amanag0101/AlgorithmVisualizer",
-  },
-  {
-    imageSrc: "/images/algo_viz.png",
-    heading: "Project Name",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, praesentium, est dolor libero perspiciatis dolore accusamus impedit ea molestias blanditiis repudiandae, deleniti accusantium nostrum mollitia eius odio atque cumque. Praesentium?",
-    stack: "Java, Spring Boot, MySQL",
-    gitHubLink: "https://github.com/amanag0101/AlgorithmVisualizer",
-  },
+      "Created a robust E-Commerce Web Application that provides a seamless shopping experience for users. The application allows the administrators to easily manage different categories and products. Users can browse the available products and add items to their cart with ease",
+    stack: "Java, Spring Boot, Thymeleaf, MySQL",
+    gitHubLink: "https://github.com/amanag0101/EmpireSales",
+  },  
 ];
 
 export default function Project() {
