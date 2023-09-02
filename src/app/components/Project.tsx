@@ -34,7 +34,7 @@ export default function Project() {
       <div className={styles.container}>
         {data.map((item) => {
           return (
-            <div className={styles.card}>
+            <div className={styles.card} key={item.imageSrc}>
               <ProjectCard
                 imageSrc={item.imageSrc}
                 heading={item.heading}

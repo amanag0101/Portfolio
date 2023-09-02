@@ -1,3 +1,4 @@
+import Image from "next/image";
 import styles from "./css/techstack.module.css";
 
 export default function TechStack() {
@@ -5,45 +6,182 @@ export default function TechStack() {
     <div className={styles.techstack}>
       <div className={styles.layer}>
         <h2>FRAMEWORKS / LIBRARIES / TOOLS</h2>
-        <img className={styles.icon} src="./icons/spring-boot.svg" alt="icon" />
-        <img className={styles.icon} src="./icons/hibernate.svg" alt="icon" />
-        <img className={styles.icon} src="./icons/rabbit-mq.svg" alt="icon" />
-        <img className={styles.icon} src="./icons/thymeleaf.svg" alt="icon" />
-        <img className={styles.icon} src="./icons/react-js.svg" alt="icon" />
-        <img className={styles.icon} src="./icons/next-js-blue.svg" alt="icon" />
-        <img className={styles.icon} src="./icons/android-studio.svg" alt="icon" />
-        <img className={styles.icon} src="./icons/git.svg" alt="icon" />
+        <Image
+          src={"./icons/spring-boot.svg"}
+          height={32}
+          width={32}
+          alt="icon"
+        ></Image>
+        <Image
+          className={styles.icon}
+          src="./icons/hibernate.svg"
+          height={32}
+          width={32}
+          alt="icon"
+        />
+        <Image
+          className={styles.icon}
+          src="./icons/rabbit-mq.svg"
+          height={32}
+          width={32}
+          alt="icon"
+        />
+        <Image
+          className={styles.icon}
+          src="./icons/thymeleaf.svg"
+          height={32}
+          width={32}
+          alt="icon"
+        />
+        <Image
+          className={styles.icon}
+          src="./icons/react-js.svg"
+          height={32}
+          width={32}
+          alt="icon"
+        />
+        <Image
+          className={styles.icon}
+          src="./icons/next-js-blue.svg"
+          height={32}
+          width={32}
+          alt="icon"
+        />
+        <Image
+          className={styles.icon}
+          src="./icons/android-studio.svg"
+          height={32}
+          width={32}
+          alt="icon"
+        />
+        <Image
+          className={styles.icon}
+          src="./icons/git.svg"
+          height={32}
+          width={32}
+          alt="icon"
+        />
       </div>
 
       <div className={styles.layer}>
         <h2>PROGRAMMING LANGUAGES</h2>
-        <img className={styles.icon} src="./icons/c.svg" alt="icon" />
-        <img className={styles.icon} src="./icons/c++.svg" alt="icon" />
-        <img className={styles.icon} src="./icons/java.svg" alt="icon" />
-        <img className={styles.icon} src="./icons/javascript.svg" alt="icon" />
-        <img className={styles.icon} src="./icons/typescript.svg" alt="icon" />
-        <img className={styles.icon} src="./icons/solidity-purple.svg" alt="icon" />
+        <Image
+          className={styles.icon}
+          src="./icons/c.svg"
+          height={32}
+          width={32}
+          alt="icon"
+        />
+        <Image
+          className={styles.icon}
+          src="./icons/c++.svg"
+          height={32}
+          width={32}
+          alt="icon"
+        />
+        <Image
+          className={styles.icon}
+          src="./icons/java.svg"
+          height={32}
+          width={32}
+          alt="icon"
+        />
+        <Image
+          className={styles.icon}
+          src="./icons/javascript.svg"
+          height={32}
+          width={32}
+          alt="icon"
+        />
+        <Image
+          className={styles.icon}
+          src="./icons/typescript.svg"
+          height={32}
+          width={32}
+          alt="icon"
+        />
+        <Image
+          className={styles.icon}
+          src="./icons/solidity-purple.svg"
+          height={32}
+          width={32}
+          alt="icon"
+        />
       </div>
 
       <div className={styles.layer}>
         <h2>BLOCKCHAIN</h2>
-        <img className={styles.icon} src="./icons/ethereum.svg" alt="icon" />
-        <img className={styles.icon} src="./icons/truffle-suite.svg" alt="icon" />
-        <img className={styles.icon} src="./icons/ganache.svg" alt="icon" />
-        <img className={styles.icon} src="./icons/solidity-purple.svg" alt="icon" />
+        <Image
+          className={styles.icon}
+          src="./icons/ethereum.svg"
+          height={32}
+          width={32}
+          alt="icon"
+        />
+        <Image
+          className={styles.icon}
+          src="./icons/truffle-suite.svg"
+          height={32}
+          width={32}
+          alt="icon"
+        />
+        <Image
+          className={styles.icon}
+          src="./icons/ganache.svg"
+          height={32}
+          width={32}
+          alt="icon"
+        />
+        <Image
+          className={styles.icon}
+          src="./icons/solidity-purple.svg"
+          height={32}
+          width={32}
+          alt="icon"
+        />
       </div>
 
       <div className={styles.layer}>
         <h2>FRONTEND</h2>
-        <img className={styles.icon} src="./icons/html.svg" alt="icon" />
-        <img className={styles.icon} src="./icons/css.svg" alt="icon" />
-        <img className={styles.icon} src="./icons/sass.svg" alt="icon" />
+        <Image
+          className={styles.icon}
+          src="./icons/html.svg"
+          height={32}
+          width={32}
+          alt="icon"
+        />
+        <Image
+          className={styles.icon}
+          src="./icons/css.svg"
+          height={32}
+          width={32}
+          alt="icon"
+        />
+        <Image
+          className={styles.icon}
+          src="./icons/sass.svg"
+          height={32}
+          width={32}
+          alt="icon"
+        />
       </div>
 
       <div className={styles.layer}>
         <h2>DATABASE</h2>
-        <img className={styles.icon} src="./icons/sql-server.png" alt="icon" />
-        <img className={styles.icon} src="./icons/mysql.svg" alt="icon" />
+        <Image
+          className={styles.icon}
+          src="./icons/mysql.svg"
+          height={32}
+          width={32}
+          alt="icon"
+        />
+        <Image
+          className={styles.icon}
+          src="./icons/mongodb.svg"
+          height={32}
+          width={32}
+          alt="icon"
+        />
       </div>
     </div>
   );

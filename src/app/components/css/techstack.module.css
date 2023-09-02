@@ -4,11 +4,6 @@
     perspective: 400px;
 }
 
-.techstack .icon {
-    height: 35px;
-    width: 35px;
-}
-
 .techstack .layer {
     animation: scroll 60s linear infinite;
     transform-origin: 50% 100%;

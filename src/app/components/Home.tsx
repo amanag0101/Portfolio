@@ -1,12 +1,13 @@
 "use client";
 
 import Image from "next/image";
-import Lottie from "lottie-react";
 
 import astronaut from "../../../public/lotties/astronaut.json";
 import styles from "./css/home.module.css";
+import dynamic from "next/dynamic";
 
 export default function Home() {
+  const Lottie = dynamic(() => import("lottie-react"), { ssr: false });
   return (
     <div className={styles.home}>
       <div className={styles.container}>
@@ -61,7 +62,7 @@ export default function Home() {
 
           <div>
             <h2>Education</h2>
-            
+
             <h3>Post Graduation</h3>
             <p className={styles.content}>
               MCA (2022 - 2024), Vellore Institute of Technology, Vellore

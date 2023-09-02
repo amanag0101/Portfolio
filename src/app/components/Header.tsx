@@ -90,9 +90,9 @@ export default function Header() {
                 alt="icon"
               ></Image>
               <b className={styles["col-2"]}>
-                <a href="https://github.com/amanag0101" target="_blank">
+                <Link href="https://github.com/amanag0101" target="_blank">
                   Github
-                </a>
+                </Link>
               </b>
             </div>
 
@@ -110,12 +110,12 @@ export default function Header() {
                 alt="icon"
               ></Image>
               <b className={styles["col-2"]}>
-                <a
+                <Link
                   href="https://www.codechef.com/users/aman___agarwal"
                   target="_blank"
                 >
                   CodeChef
-                </a>
+                </Link>
               </b>
             </div>
 
@@ -133,12 +133,12 @@ export default function Header() {
                 alt="icon"
               ></Image>
               <b className={styles["col-2"]}>
-                <a
+                <Link
                   href="https://www.linkedin.com/in/amanag0101/"
                   target="_blank"
                 >
                   LinkedIn
-                </a>
+                </Link>
               </b>
             </div>
           </div>
