@@ -377,7 +377,7 @@ const SpaceParticles: any = {
         enable: false,
         minimumValue: 1,
       },
-      value: 2,
+      value: 1.5,
       animation: {
         count: 0,
         enable: false,
