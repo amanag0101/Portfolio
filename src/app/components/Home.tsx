@@ -44,29 +44,32 @@ export default function Home() {
           </div>
 
           <div>
-            <h2>Work Experience (April 2022 - August 2023)</h2>
-            <div className={styles.content}>
-              <h3>Fullstack Web Developer at VedX Academy </h3>
-              <br></br>
-              <p>
-                {">"} Independently developed and deployed back end APIs,
-                designed intuitive user interfaces, and managed the release of
-                new features to enhance the user experience.
-              </p>
-              <br></br>
-              <p>
-                {">"} My technical expertise includes working with a diverse
-                tech stack, including Spring Boot, Next.js, MySQL, RabbitMQ,
-                Git, and REST API.
-              </p>
-            </div>
+            <h2>Work Experience</h2>
+
+            <h3>
+              Fullstack Web Developer at VedX Academy (April 2022 - August 2023)
+            </h3>
+
+            <p className={styles.content}>
+              Independently developed and deployed back end APIs, designed
+              intuitive user interfaces, and managed the release of new features
+              to enhance the user experience. My technical expertise includes
+              working with a diverse tech stack, including Spring Boot, Next.js,
+              MySQL, RabbitMQ, Git, and REST API.
+            </p>
           </div>
 
           <div>
-            <h2>Post Graduation (2022 - 2024)</h2>
+            <h2>Education</h2>
+            
+            <h3>Post Graduation</h3>
             <p className={styles.content}>
-              Masters of Computer Applications (MCA) <br />
-              Vellore Institute of Technology (VIT), Vellore
+              MCA (2022 - 2024), Vellore Institute of Technology, Vellore
+            </p>
+
+            <h3>Graduation</h3>
+            <p className={styles.content}>
+              BCA (2017 - 2020), Inspiria Knowledge Campus, Siliguri
             </p>
           </div>
 

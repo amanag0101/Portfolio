@@ -10,7 +10,7 @@ export default function TechStack() {
         <img className={styles.icon} src="./icons/rabbit-mq.svg" alt="icon" />
         <img className={styles.icon} src="./icons/thymeleaf.svg" alt="icon" />
         <img className={styles.icon} src="./icons/react-js.svg" alt="icon" />
-        <img className={styles.icon} src="./icons/next-js.svg" alt="icon" />
+        <img className={styles.icon} src="./icons/next-js-blue.svg" alt="icon" />
         <img className={styles.icon} src="./icons/android-studio.svg" alt="icon" />
         <img className={styles.icon} src="./icons/git.svg" alt="icon" />
       </div>
@@ -22,7 +22,7 @@ export default function TechStack() {
         <img className={styles.icon} src="./icons/java.svg" alt="icon" />
         <img className={styles.icon} src="./icons/javascript.svg" alt="icon" />
         <img className={styles.icon} src="./icons/typescript.svg" alt="icon" />
-        <img className={styles.icon} src="./icons/solidity.svg" alt="icon" />
+        <img className={styles.icon} src="./icons/solidity-purple.svg" alt="icon" />
       </div>
 
       <div className={styles.layer}>
@@ -30,7 +30,7 @@ export default function TechStack() {
         <img className={styles.icon} src="./icons/ethereum.svg" alt="icon" />
         <img className={styles.icon} src="./icons/truffle-suite.svg" alt="icon" />
         <img className={styles.icon} src="./icons/ganache.svg" alt="icon" />
-        <img className={styles.icon} src="./icons/solidity.svg" alt="icon" />
+        <img className={styles.icon} src="./icons/solidity-purple.svg" alt="icon" />
       </div>
 
       <div className={styles.layer}>
@@ -42,7 +42,7 @@ export default function TechStack() {
 
       <div className={styles.layer}>
         <h2>DATABASE</h2>
-        <img className={styles.icon} src="./icons/sql.png" alt="icon" />
+        <img className={styles.icon} src="./icons/sql-server.png" alt="icon" />
         <img className={styles.icon} src="./icons/mysql.svg" alt="icon" />
       </div>
     </div>

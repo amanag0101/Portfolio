@@ -32,20 +32,16 @@
 }
 
 .home .container .col-2 .content {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    padding: 8px;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+    padding: 8px 0;
 }
 
 .home .container .col-2 div h2 {
     margin-bottom: 8px;
 }
 
-.home .container .col-2 .hobby {
-    margin-bottom: 28px;
-}
-
 .home .container .col-2 .hobby img {
-    margin-right: 12px;
+    margin-right: 16px;
 }
 
 @media (max-width: 720px) {

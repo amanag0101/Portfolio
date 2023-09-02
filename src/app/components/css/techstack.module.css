@@ -31,6 +31,10 @@
     .techstack .icon {
         padding: 4px;
     }
+
+    .techstack .layer h2 {
+        margin-top: 12px;
+    }
 }
 
 /* @keyframes scroll {

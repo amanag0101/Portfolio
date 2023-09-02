@@ -20,7 +20,7 @@
 }
 
 .header .container .social {
-    flex-basis: 75%;
+    flex-basis: 100%;
     justify-content: right;
 }
 
