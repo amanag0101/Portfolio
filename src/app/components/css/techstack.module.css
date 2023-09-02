@@ -18,8 +18,8 @@
 
 .techstack .layer h2 {
     font-family: "Star Wars";
-    letter-spacing: 2px ;
-    color: #FFE81F;
+    letter-spacing: 2px;
+    color: #ffe91f;
     margin-bottom: 12px;
 }
 
@@ -33,7 +33,7 @@
     }
 }
 
-@keyframes scroll {
+/* @keyframes scroll {
     from {
         transform: rotateX(20deg) translateY(0);
         opacity: 1;
@@ -43,4 +43,4 @@
         transform: rotateX(25deg) translateY(-500%);
         opacity: 0;
     }
-}
+} */

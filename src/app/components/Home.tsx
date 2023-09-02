@@ -23,16 +23,16 @@ export default function Home() {
 
         <div className={styles["col-2"]}>
           <div>
-            <h2>
-              Hi!{" "}
-              <Image
+            <h2 className={styles.about}>
+              Hi! &nbsp;
+              {/* <Image
                 className={styles.icon}
                 src="/icons/wave.svg"
                 alt="icon"
                 height={20}
                 width={20}
-              />
-              <br />I am Aman Agarwal
+              /> */}
+              I am Aman Agarwal
             </h2>
             <p className={styles.content}>
               I am a person who is positive about every aspect of life. I am

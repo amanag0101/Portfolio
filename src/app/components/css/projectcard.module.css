@@ -1,13 +1,21 @@
 .card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: 1px solid;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
     transition: all 0.7s ease-in-out;
+    animation: bg-spin 3s linear infinite;
     text-align: center;
-    padding: 12px;
+    padding: 24px;
     margin: 8px;
 }
 
 .card:hover {
     scale: 1.1;
+}
+
+.card img {
+    border: 1px solid;
+    transition: all 0.7s ease-in-out;
+    animation: bg-spin 3s linear infinite;
 }
 
 .card .heading,
@@ -31,4 +39,26 @@
     background-color: #ff4546;
     color: #fff;
     cursor: pointer;
+}
+
+@keyframes bg-spin {
+    0% {
+        border-color: #00f0ff;
+    }
+
+    25% {
+        border-color: #FFE81F;
+    }
+
+    50% {
+        border-color: #00f0ff;
+    }
+
+    75% {
+        border-color: #FFE81F;
+    }
+
+    100% {
+        border-color: #00f0ff;
+    }
 }

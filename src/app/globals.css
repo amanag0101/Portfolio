@@ -5,13 +5,17 @@
 }
 
 body {
-  background-color: #11111c;
-  color: #fff;
+  background-color: #000000;
+  color: #EEEEEE;
 }
 
 h1,
 h2 {
-  color: #ff4552;
+  color: #526D82;
+}
+
+p {
+  line-height: 1.5;
 }
 
 a {
@@ -20,12 +24,12 @@ a {
 }
 
 a:hover {
-  color: #ff4552;
+  color: #526D82;
 }
 
 .active {
-  color: #ff4552;
-  border-bottom: 1px solid #ff4552;
+  color: #526D82;
+  border-bottom: 1px solid #526D82;
 }
 
 @media (max-width: 720px) {
@@ -37,4 +41,9 @@ a:hover {
 @font-face {
   font-family: "Star Wars";
   src: url("/fonts/starwars.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "gellatio";
+  src: url("/fonts/gellatio.ttf") format("truetype");
 }
