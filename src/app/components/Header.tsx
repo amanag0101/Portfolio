@@ -50,10 +50,7 @@ export default function Header() {
   return (
     <div className={styles.header}>
       <div className={styles.container}>
-        <div
-          className={styles.textIcon}
-          onClick={() => router.push("/")}
-        >
+        <div className={styles.textIcon} onClick={() => router.push("/")}>
           <Image
             className={styles["col-1"]}
             src="/icons/namaste.png"
@@ -100,6 +97,29 @@ export default function Header() {
               <Image
                 onClick={() =>
                   window.open(
+                    "https://www.linkedin.com/in/amanag0101/",
+                    "_blank"
+                  )
+                }
+                src="/icons/linkedin.png"
+                height={30}
+                width={30}
+                alt="icon"
+              ></Image>
+              <b className={styles["col-2"]}>
+                <Link
+                  href="https://www.linkedin.com/in/amanag0101/"
+                  target="_blank"
+                >
+                  LinkedIn
+                </Link>
+              </b>
+            </div>
+
+            <div className={styles.textIcon}>
+              <Image
+                onClick={() =>
+                  window.open(
                     "https://www.codechef.com/users/aman___agarwal",
                     "_blank"
                   )
@@ -123,21 +143,21 @@ export default function Header() {
               <Image
                 onClick={() =>
                   window.open(
-                    "https://www.linkedin.com/in/amanag0101/",
+                    "https://www.codechef.com/users/aman___agarwal",
                     "_blank"
                   )
                 }
-                src="/icons/linkedin.png"
+                src="/icons/download.png"
                 height={30}
                 width={30}
                 alt="icon"
               ></Image>
               <b className={styles["col-2"]}>
                 <Link
-                  href="https://www.linkedin.com/in/amanag0101/"
+                  href="https://drive.google.com/file/d/108BmwdgqogmEpESWiz70EaCrO3iLpIGt/view?usp=drive_link"
                   target="_blank"
                 >
-                  LinkedIn
+                  Resume
                 </Link>
               </b>
             </div>

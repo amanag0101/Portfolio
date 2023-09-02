@@ -14,7 +14,7 @@ export interface ProjectCardProps {
 export default function ProjectCard(props: ProjectCardProps) {
   return (
     <div className={styles.card}>
-      <Image src={props.imageSrc} height={200} width={300} alt="img" />
+      <Image src={props.imageSrc} height={220} width={350} alt="img" />
       <p className={styles.heading}>
         <b>{props.heading}</b>
       </p>

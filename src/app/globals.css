@@ -47,3 +47,21 @@ a:hover {
   font-family: "gellatio";
   src: url("/fonts/gellatio.ttf") format("truetype");
 }
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #fff; 
+}
+
+::-webkit-scrollbar-thumb {
+  background: #526D82; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #000;
+  cursor: pointer;
+}

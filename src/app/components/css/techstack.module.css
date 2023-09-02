@@ -1,13 +1,13 @@
 .techstack {
     padding: 8px;
-    overflow: hidden;
-    perspective: 400px;
+    /* overflow: hidden; */
+    /* perspective: 400px; */
 }
 
 .techstack .layer {
-    animation: scroll 60s linear infinite;
-    transform-origin: 50% 100%;
-    margin-bottom: 24px;
+    /* animation: scroll 60s linear infinite; */
+    /* transform-origin: 50% 100%; */
+    margin-bottom: 28px;
     text-align: center;
 }
 
