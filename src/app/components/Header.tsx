@@ -143,7 +143,7 @@ export default function Header() {
               <Image
                 onClick={() =>
                   window.open(
-                    "https://www.codechef.com/users/aman___agarwal",
+                    "https://drive.google.com/file/d/108BmwdgqogmEpESWiz70EaCrO3iLpIGt/view?usp=drive_link",
                     "_blank"
                   )
                 }
